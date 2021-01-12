@@ -42,15 +42,15 @@ The sequence of bed levelling is as follows:
 - compress springs in equal distance [Tom Tullis, (3:06)](https://youtu.be/4JSa_r8xgX8?t=186)
 - move z-axis down [Tom Tullis, (3:50)](https://youtu.be/4JSa_r8xgX8?t=230)
 - adjust z-axis switch [Tom Tullis, (4:20)](https://youtu.be/4JSa_r8xgX8?t=260)
-- level the bed: check the correct distance of the bed to the nozzle with a sheet of paper for each of the four points:
+- bed levelling: check the correct distance of the bed to the nozzle with a sheet of paper for each of the four points
   * raise bed to get closer to the nozzle [Tom Tullis, (5:13)](https://youtu.be/4JSa_r8xgX8?t=313)
     ![picture](pic/raise_bed_up.jpg)
   * lower bed to get away from the nozzle [Tom Tullis, (5:19)](https://youtu.be/4JSa_r8xgX8?t=319)
     ![picture](pic/move_bed_down.jpg)
 - the explanation, why bed levelling must be done several steps is the fulcrum point diagram [Tom Tullis, (5:41)](https://youtu.be/4JSa_r8xgX8?t=341)
-- check the bed levelling result [Tom Tullis, (9:06)](https://youtu.be/4JSa_r8xgX8?t=546)
-The gcode can be found on Tom Tulls' video page or [here](gcode/CEv2_bed_level_print_190x190.gcode).
-A helper code for the bed levelling is from [Bryan Vines' video](https://youtu.be/L6FZjkWcW2g) or can be found [here](gcode/CE3_v2_bed_level_help.gcode).
+- check the bed levelling result by printing five squares, [Tom Tullis, (9:06)](https://youtu.be/4JSa_r8xgX8?t=546), the gcode can be found on Tom Tulls' video page or [here](gcode/CEv2_bed_level_print_190x190.gcode)
+
+A helper code for the bed levelling can be found on [Bryan Vines' video](https://youtu.be/L6FZjkWcW2g) or [here](gcode/CE3_v2_bed_level_help.gcode). Just start printing and take the sheet of paper and adjust the distance to the nozzle. Use the last step for final confirmation.
 
 ## Printer calibration
 to be continued
