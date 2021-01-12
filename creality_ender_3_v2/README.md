@@ -37,17 +37,20 @@ The sequence for mounting I used is as follows:
 The latest firmware can be downloaded from the official [Creality website](https://www.creality.com/download) (*Ender-3 V2_32bit_ 2.0.1V Latest Firmware_0814.rar*, 14 Aug, 2020) or found [here](firmware/CE3_v2_Marlin_v2.0.1_v1.0.2.bin). Put the firmware onto the root directory of a µSD card, switch off the printer, put the µSD card into the printer and switch the printer on. The printer automatically detects and loads the new firmware.
 
 ## Bed levelling
-For the bed levelling I used this video from Tom Tullis.
+For the bed levelling I used this video from [Tom Tullis](https://youtu.be/4JSa_r8xgX8).
 The sequence of bed levelling is as follows:
 - compress springs in equal distance [Tom Tullis, (3:06)](https://youtu.be/4JSa_r8xgX8?t=186)
 - move z-axis down [Tom Tullis, (3:50)](https://youtu.be/4JSa_r8xgX8?t=230)
 - adjust z-axis switch [Tom Tullis, (4:20)](https://youtu.be/4JSa_r8xgX8?t=260)
-- raise bed to get closer to the nozzle [Tom Tullis, (5:13)](https://youtu.be/4JSa_r8xgX8?t=313)
-- lower bed to get away from the nozzle [Tom Tullis, (5:19)](https://youtu.be/4JSa_r8xgX8?t=319)
+- level the bed: check the correct distance of the bed to the nozzle with a sheet of paper for each of the four points:
+  * raise bed to get closer to the nozzle [Tom Tullis, (5:13)](https://youtu.be/4JSa_r8xgX8?t=313)
+    ![picture](pic/raise_bed_up.jpg)
+  * lower bed to get away from the nozzle [Tom Tullis, (5:19)](https://youtu.be/4JSa_r8xgX8?t=319)
+    ![picture](pic/move_bed_down.jpg)
 - the explanation, why bed levelling must be done several steps is the fulcrum point diagram [Tom Tullis, (5:41)](https://youtu.be/4JSa_r8xgX8?t=341)
 - check the bed levelling result [Tom Tullis, (9:06)](https://youtu.be/4JSa_r8xgX8?t=546)
 The gcode can be found on Tom Tulls' video page or [here](gcode/CEv2_bed_level_print_190x190.gcode).
-A helper code for the bed levelling is from [Bryan Vines](https://youtu.be/L6FZjkWcW2g) or can be found [here](gcode/CE3_v2_bed_level_help.gcode).
+A helper code for the bed levelling is from [Bryan Vines' video](https://youtu.be/L6FZjkWcW2g) or can be found [here](gcode/CE3_v2_bed_level_help.gcode).
 
 ## Printer calibration
 to be continued
