@@ -9,19 +9,33 @@ This howto shows the basic setup of ESPEasy. A very good introduction of ESPEasy
 ## ESPEasy setup
 Once you have connected to the WLAN you should be able to open to see and modify the following pages:
 ### long version
-- Main ![picture](pic/ESPEasy-pic01.jpg)
+- Main
+  ![picture](pic/ESPEasy-pic01.jpg)
+  
   Main tab shows the chosen ESPEasy version and other system variables.
-- Config ![picture](pic/ESPEasy-pic02.jpg)
+- Config
+  ![picture](pic/ESPEasy-pic02.jpg)
+  
   Here you should see your SSID and WPA key which were entered during initial configuration (not included in configuration file below).
-- Controllers ![picture](pic/ESPEasy-pic03.jpg)
+- Controllers
+  ![picture](pic/ESPEasy-pic03.jpg)
+  
   In controllers page, you can specify your controller (e.g. FHEM) which gets the data (except data from serial interface from Optolink adapter).
-- Hardware ![picture](pic/ESPEasy-pic04.jpg)
+- Hardware
+  ![picture](pic/ESPEasy-pic04.jpg)
+  
   In hardware settings, no changes to default settings are needed.
-- Devices ![picture](pic/ESPEasy-pic05.jpg)
+- Devices
+  ![picture](pic/ESPEasy-pic05.jpg)
+  
   In devices settings the main settings for devices (serial interface, 1-wire devices, system variablesm etc.) are set.
-- Devices: serial server ![picture](pic/ESPEasy-pic06.jpg)
+- Devices: serial server
+  ![picture](pic/ESPEasy-pic06.jpg)
+  
   Here the values for Optolink port (4800/8/E/2) and the WLAN port are set.
-- Tools ![picture](pic/ESPEasy-pic07.jpg)
+- Tools
+  ![picture](pic/ESPEasy-pic07.jpg)
+  
   In tools NTP the NTP time server is specified.
 ### short version
 - rename *ESPEasy_vitotronic_interface.dat* to *config.dat* and load configuration file in tools tab to ESPEasy
