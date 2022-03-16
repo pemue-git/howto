@@ -15,6 +15,12 @@ Main tab shows the chosen ESPEasy version and other system variables.
 - Config  
 ![picture](pic/ESPEasy-pic02.jpg)  
 Here you should see your SSID and WPA key which were entered during initial configuration (not included in configuration file below).  
+In case you want to avoid DHCP (and the risk, that a different IP address is generated on reboot), a [static IP](https://www.mwinklerblog.de/smarthome/esp-easy/espeasy-firmware/) can be set:
+-> WiFi IP settings
+  - ESP WiFi IP (desired IP address)
+  - ESP WiFi gateway (usually your router's IP address)
+  - ESP WiFi subnet mask (usually 255.255.255.0)
+  - ESP WiFi DNS (usually your router's IP address)
 - Controllers  
 ![picture](pic/ESPEasy-pic03.jpg)  
 In controllers page, you can specify your controller (e.g. FHEM) which gets the data (except data from serial interface from Optolink adapter).  
@@ -35,4 +41,4 @@ In tools NTP the NTP time server is specified.
 - adjust naming according your needs
 
 ## Resources
-* for documentation purposes: [online check of MD files](https://dillinger.io/)
+* for documentation purposes: [online check of MD files](https://dillinger.io)
